@@ -5,32 +5,29 @@ html {
 body {
 
     background-color: hsl(212, 45%, 89%);
-
-
 }
 
 .container {
-
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
+
 p {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
+
 .img-setting {
     height: 287px;
     width: 287px;
     margin: 17px;
     border-radius: 10px;
-    
 }
+
 .box {
     display: flex;
     flex-direction: column;
@@ -40,7 +37,6 @@ p {
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
-    
 }
 
 .text-container {
@@ -55,7 +51,6 @@ p {
     font-weight: bold;
     color: hsl(218, 44%, 22%);
     margin: 0px auto;
-    
 }
 
 p.main-text {
@@ -64,7 +59,11 @@ p.main-text {
 
 .attribution {
     display: block;
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
